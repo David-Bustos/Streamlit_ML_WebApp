@@ -8,6 +8,9 @@ from sklearn.svm import SVC
 import streamlit as st
 import pandas as pd
 
+# warning st.pyplot(fig)
+st.set_option('deprecation.showPyplotGlobalUse', False)
+
 def main():
     st.title("Binary Classification Web App")
     st.markdown("Are your mushroom edible or poisonous? 🍄")

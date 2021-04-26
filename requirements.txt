@@ -1,0 +1,3 @@
+skcikit-learn
+pandas
+streamlit
